@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\01_数组">
+      <UniqueIdentifier>{2afe5cb8-831d-4a08-9c92-fc86db4f01e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\02_链表">
+      <UniqueIdentifier>{562b33ad-1ff3-4acc-8ec4-a04359fb85b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\03_栈">
+      <UniqueIdentifier>{f9fc2348-4645-4146-a583-ca7ae500d282}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\04_队列">
+      <UniqueIdentifier>{66e6118b-5bbf-47ac-ac1c-b99904583ba1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\05_排序">
+      <UniqueIdentifier>{5635c662-a489-4710-b1e3-cc43d0f9f3bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\06_二叉堆">
+      <UniqueIdentifier>{24942923-6914-4950-ada2-daef9519cc03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\07_哈希表">
+      <UniqueIdentifier>{0a89aa77-1f2c-46f1-91b8-78c485ac9faa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\08_二叉树">
+      <UniqueIdentifier>{c069f868-d0b4-4e27-b455-7066308fb6f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\09_回溯算法">
+      <UniqueIdentifier>{96f1848f-5c5a-441d-a96f-ac5262ca7c2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\10_分治算法">
+      <UniqueIdentifier>{5ef21f2b-e526-4cf3-bd17-07153af0a1a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\11_动态规划算法">
+      <UniqueIdentifier>{e4692190-0534-4d75-b05e-baea2cd78789}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\12_贪心算法">
+      <UniqueIdentifier>{4a3ff0a9-bcab-4d3d-a358-68d2927e9220}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="01_数组.cpp">
+      <Filter>源文件\01_数组</Filter>
+    </ClCompile>
+    <ClCompile Include="01_单链表.cpp">
+      <Filter>源文件\02_链表</Filter>
+    </ClCompile>
+    <ClCompile Include="02_单向循环链表.cpp">
+      <Filter>源文件\02_链表</Filter>
+    </ClCompile>
+    <ClCompile Include="03_约瑟夫环.cpp">
+      <Filter>源文件\02_链表</Filter>
+    </ClCompile>
+    <ClCompile Include="04_双向链表.cpp">
+      <Filter>源文件\02_链表</Filter>
+    </ClCompile>
+    <ClCompile Include="05_双向循环链表.cpp">
+      <Filter>源文件\02_链表</Filter>
+    </ClCompile>
+    <ClCompile Include="01_顺序栈.cpp">
+      <Filter>源文件\03_栈</Filter>
+    </ClCompile>
+    <ClCompile Include="02_链式栈.cpp">
+      <Filter>源文件\03_栈</Filter>
+    </ClCompile>
+    <ClCompile Include="03_中缀转后缀表达式.cpp">
+      <Filter>源文件\03_栈</Filter>
+    </ClCompile>
+    <ClCompile Include="01环形队列.cpp">
+      <Filter>源文件\04_队列</Filter>
+    </ClCompile>
+    <ClCompile Include="02链表队列.cpp">
+      <Filter>源文件\04_队列</Filter>
+    </ClCompile>
+    <ClCompile Include="03二分查找法.cpp">
+      <Filter>源文件\04_队列</Filter>
+    </ClCompile>
+    <ClCompile Include="01_冒泡排序.cpp">
+      <Filter>源文件\05_排序</Filter>
+    </ClCompile>
+    <ClCompile Include="02_选择排序.cpp">
+      <Filter>源文件\05_排序</Filter>
+    </ClCompile>
+    <ClCompile Include="03_插入排序.cpp">
+      <Filter>源文件\05_排序</Filter>
+    </ClCompile>
+    <ClCompile Include="04_希尔排序.cpp">
+      <Filter>源文件\05_排序</Filter>
+    </ClCompile>
+    <ClCompile Include="05_快速排序.cpp">
+      <Filter>源文件\05_排序</Filter>
+    </ClCompile>
+    <ClCompile Include="06_归并排序.cpp">
+      <Filter>源文件\05_排序</Filter>
+    </ClCompile>
+    <ClCompile Include="01_二插堆.cpp">
+      <Filter>源文件\06_二叉堆</Filter>
+    </ClCompile>
+    <ClCompile Include="02_堆排序.cpp">
+      <Filter>源文件\06_二叉堆</Filter>
+    </ClCompile>
+    <ClCompile Include="07_基数排序.cpp">
+      <Filter>源文件\05_排序</Filter>
+    </ClCompile>
+    <ClCompile Include="01_线性哈希表.cpp">
+      <Filter>源文件\07_哈希表</Filter>
+    </ClCompile>
+    <ClCompile Include="02_链式哈希表.cpp">
+      <Filter>源文件\07_哈希表</Filter>
+    </ClCompile>
+    <ClCompile Include="03_top_k应用.cpp">
+      <Filter>源文件\07_哈希表</Filter>
+    </ClCompile>
+    <ClCompile Include="04_top_k位图算法.cpp">
+      <Filter>源文件\07_哈希表</Filter>
+    </ClCompile>
+    <ClCompile Include="05_布隆滤波器.cpp">
+      <Filter>源文件\07_哈希表</Filter>
+    </ClCompile>
+    <ClCompile Include="06_大小根堆算法.cpp">
+      <Filter>源文件\07_哈希表</Filter>
+    </ClCompile>
+    <ClCompile Include="07_快排分割top_k.cpp">
+      <Filter>源文件\07_哈希表</Filter>
+    </ClCompile>
+    <ClCompile Include="01_BST树.cpp">
+      <Filter>源文件\08_二叉树</Filter>
+    </ClCompile>
+    <ClCompile Include="02_AVL树.cpp">
+      <Filter>源文件\08_二叉树</Filter>
+    </ClCompile>
+    <ClCompile Include="03_红黑树.cpp">
+      <Filter>源文件\08_二叉树</Filter>
+    </ClCompile>
+    <ClCompile Include="01_递归.cpp">
+      <Filter>源文件\09_回溯算法</Filter>
+    </ClCompile>
+    <ClCompile Include="02_整数问题求解.cpp">
+      <Filter>源文件\09_回溯算法</Filter>
+    </ClCompile>
+    <ClCompile Include="03_2N整数求解问题.cpp">
+      <Filter>源文件\09_回溯算法</Filter>
+    </ClCompile>
+    <ClCompile Include="04_挑数字问题1.cpp">
+      <Filter>源文件\09_回溯算法</Filter>
+    </ClCompile>
+    <ClCompile Include="05_挑数字问题2.cpp">
+      <Filter>源文件\09_回溯算法</Filter>
+    </ClCompile>
+    <ClCompile Include="06_背包问题.cpp">
+      <Filter>源文件\09_回溯算法</Filter>
+    </ClCompile>
+    <ClCompile Include="07_排列树.cpp">
+      <Filter>源文件\09_回溯算法</Filter>
+    </ClCompile>
+    <ClCompile Include="08_八皇后问题.cpp">
+      <Filter>源文件\09_回溯算法</Filter>
+    </ClCompile>
+    <ClCompile Include="09_基于穷举法的全排列.cpp">
+      <Filter>源文件\09_回溯算法</Filter>
+    </ClCompile>
+    <ClCompile Include="01_分治算法.cpp">
+      <Filter>源文件\10_分治算法</Filter>
+    </ClCompile>
+    <ClCompile Include="02_快速排序.cpp">
+      <Filter>源文件\10_分治算法</Filter>
+    </ClCompile>
+    <ClCompile Include="03_快排分割求top_k.cpp">
+      <Filter>源文件\10_分治算法</Filter>
+    </ClCompile>
+    <ClCompile Include="04_归并排序.cpp">
+      <Filter>源文件\10_分治算法</Filter>
+    </ClCompile>
+    <ClCompile Include="05_合并k个有序单链表.cpp">
+      <Filter>源文件\10_分治算法</Filter>
+    </ClCompile>
+    <ClCompile Include="06_对数时间求中位数.cpp">
+      <Filter>源文件\10_分治算法</Filter>
+    </ClCompile>
+    <ClCompile Include="01_硬币选择问题.cpp">
+      <Filter>源文件\11_动态规划算法</Filter>
+    </ClCompile>
+    <ClCompile Include="02_斐波那契问题.cpp">
+      <Filter>源文件\11_动态规划算法</Filter>
+    </ClCompile>
+    <ClCompile Include="03_最大子段和问题.cpp">
+      <Filter>源文件\11_动态规划算法</Filter>
+    </ClCompile>
+    <ClCompile Include="04_LIS问题.cpp">
+      <Filter>源文件\11_动态规划算法</Filter>
+    </ClCompile>
+    <ClCompile Include="05_LCS公共子序列问题.cpp">
+      <Filter>源文件\11_动态规划算法</Filter>
+    </ClCompile>
+    <ClCompile Include="06_背包问题01.cpp">
+      <Filter>源文件\11_动态规划算法</Filter>
+    </ClCompile>
+    <ClCompile Include="07_三角数组问题.cpp">
+      <Filter>源文件\11_动态规划算法</Filter>
+    </ClCompile>
+    <ClCompile Include="12-1硬币选择问题.cpp">
+      <Filter>源文件\12_贪心算法</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,108 @@
+#include <iostream>
+#include <string>
+#include <stdlib.h>
+#include <time.h>
+using namespace std;
+
+#if 0
+
+//Ë³ÐòÕ»  C++ÈÝÆ÷ÊÊÅäÆ÷ stack
+class SeqStack
+{
+public:
+	SeqStack(int size = 10)
+		:mtop(0)
+		,mcap(size)
+	{
+		mpstack = new int[mcap];
+	}
+
+	~SeqStack()
+	{
+		delete[] mpstack;
+		mpstack = nullptr;
+	}
+
+public:
+	void push(int val)
+	{
+		if (mtop == mcap)
+		{
+			//Õ»ÐèÒª½øÐÐÀ©ÈÝ
+			expand(2 * mcap);
+		}
+		mpstack[mtop++] = val;
+
+	}
+
+	void pop()
+	{
+		if (mtop == 0)
+		{
+			return;
+		}
+		mtop--;
+	}
+
+	int top() const
+	{
+		if (mtop == 0)
+		{
+			throw "stack is empty!";
+		}
+		return mpstack[mtop-1 ];
+	}
+
+
+	//ÅÐ¶ÏÕ»¿Õ
+	bool empty() const
+	{
+		return mtop == 0;
+	}
+
+	//Õ»ÔªËØ¸öÊý
+	int size() const
+	{
+		return mtop;
+	}
+
+private:
+	void expand(int size)
+	{
+		int* p = new int[size];
+		memcpy(p, mpstack, mtop * sizeof(int));
+		delete[]mpstack;
+		mpstack = p;
+		mcap = size;
+	}
+private:
+	int* mpstack;
+	int mtop;		//Õ»¶¥Î»ÖÃ
+	int mcap;		//Õ»¿Õ¼ä´óÐ¡
+
+};
+
+
+
+
+
+int main()
+{
+	SeqStack s;
+	int arr[] = { 12,2,5,6,5,34,5646,5 };
+
+	for (int v : arr)
+	{
+		s.push(v);
+	}
+
+	while (!s.empty())
+	{
+		cout << s.top() << " ";
+		s.pop();
+	}
+
+	return 0; 
+}
+
+#endif
